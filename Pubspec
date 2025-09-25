@@ -1,0 +1,26 @@
+# pubspec.yaml
+name: sudan_account
+description: تطبيق حسابك – محاسبي سوداني بلغة عربية باستخدام Flutter
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.0.14
+  flutter_localizations:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+
+  fonts:
+    - family: SudanKufi
+      fonts:
+        - asset: assets/fonts/SudanKufi.ttf
